@@ -26,7 +26,7 @@ async function getMessage(){
        const response = await fetch('https://api.openai.com/v1/chat/completions',options)
         const data = await response.json()
         console.log(data)
-        outPutElement.textContent = data.error.message //-->after buy coin update
+        outPutElement.textContent = data.error.code //-->after buy coin update
         if (data.error.message && inputElement.value) {
             const pElement= document.createElement('p')
             pElement.textContent = inputElement.value

@@ -1,0 +1,132 @@
+ @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700;800;900;1000&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+*{
+    color: #fff;
+    font-family: 'Open Sans',sans-serif;
+}
+*, :after, :before {
+    border: 0 solid #d9d9e3;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #343541;
+    display: flex;
+    background-image:url(./img/5.png) ;
+    
+}
+h1{
+    font-size: 32px;
+    font-weight: 900;
+    padding: 400px 0;
+    font-style: italic;
+    text-align: center;
+    text-shadow: 0px 0px 10px rgb(231, 9, 220);
+    
+}
+.side-bar{
+    padding: 200px 0px;
+    background-color: transparent;
+    
+    width: 200px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+.main{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    height: 100px;
+    width: 100%;
+}
+.bottom-section{
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.info{
+    color:crimson;
+    font-size: 11px;
+    font-weight: 700;
+    padding: 10px;
+
+}
+input{
+    border:black;
+    border-radius: 25px;
+    background-color:grey;
+    width: 100%;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    padding: 12px 15px;
+    box-shadow: rgba(0,0,0,0.05) 0 54px 55px,
+    rgba(0,0,0,0.05) 0 -12px 30px,
+    rgba(0,0,0,0.05) 0 4px 5px,
+    rgba(0,0,0,0.05) 0 12px 3px,
+    rgba(0,0,0,0.05) 0- 4px 5px
+}
+.input-contanier{
+    position: relative;
+    width: 650px;
+    max-width:100%;
+    bottom: 0;
+    
+}
+.input-contanier #submit{
+    position:absolute;
+    right: 0;
+    bottom: 15px;
+    cursor: pointer;
+}
+
+button{
+    border:solid 0.5px rgba(255,255,255,0.5);
+    border-radius: 25px;
+    width: 100%;
+    background-color: transparent;
+    padding: 10px;
+    margin: 10px;
+    font-size: 25px;
+    cursor: pointer;
+    
+}
+.side-bar #nChatButton{
+background-color: orangered;
+}
+p{
+    cursor: pointer;
+    border-top: solid 0.5px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 25px;
+    width: 100%;
+
+    background-color:rgba(236, 15, 15, 0.5);
+    font-style: italic;
+
+}
